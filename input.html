@@ -1,0 +1,209 @@
+ <!DOCTYPE html>
+
+ <html>
+   <head>
+     <meta charset ="utf-8">
+       <title>Register Accaount</title>
+    </head>
+<link rel = "stylesheet" href = "layoutstyle.css" type = "text/css">
+<style type = "text/css">
+
+label{
+width: 150px;
+display: inline-block;
+
+}
+
+</style>
+
+    <body>
+<div id = "wrapper">
+
+<div id = "header">
+
+<h1 class = "special">Your Child Everyday Paradise </h1>
+</div>
+
+<div id = "navigation">
+
+<ul>
+<li><a href = "home.html"> Home</a></li>
+<li><a href = "products.html"> Our Products</a></li>
+<li><a href = "contact.html"> Contact Us</a></li>
+<li><a href = "register.html"> Register</a></li>
+<li><a href = "login.html"> Login</a></li>
+</ul>
+
+</div><!--navigation-->
+
+<div id = "content-container">
+<center>
+<p>
+   <img src = "home.jpg" width=1500; height=400>
+
+</p>
+</center>
+<div id = "main">
+
+<fieldset>
+   <legend><h1>Account opening form</h1></legend>
+ <p>If you already have an account with us, please login at the login page</p>  
+      <!-- post form data to form.php -->
+   <form method = "post" action = "form.php">
+  
+
+<fieldset>
+<legend><h1>Address Detail</h1></legend>
+   <p><label> first Name:  </label> 
+      <input type = "text" name = "fname"
+        maxlength ="30" 
+      placeholder = "first name" required/>
+    
+   </p>
+
+<p><label>Last Name: </label> 
+   <input type = "text" name = "lname" 
+      placeholder = "last name" />
+     
+   </p>
+
+<p><label>Adress: </label> 
+    <input type = "text" name = "address" required/>
+     
+   </p>
+
+<p><label>Street: </label> 
+    <input type = "text" name = "street" required/>
+     
+   </p>
+
+<p><label>Postal code: </label> 
+    <input type = "text" name = "code" required/>
+     
+   </p>
+
+<p><label>State: </label> 
+    <input type = "text" name = "State" required/>
+     
+   </p>
+<p><label>Country: </label> 
+    <input type = "text" name = "country" required/>
+     
+   </p>
+
+</fieldset>
+<p>
+<fieldset>
+<legend><h1>Additional Contact Details</h1></legend>
+<label>Tel:</label>
+    <input type= "text" name = "phone" placeholder = "(###) ###-####"
+     pattern ="\(\d{3}\+\d{3}-\d{4})" required/>  
+
+
+</p>
+
+  <p><label>Email: </label> 
+    <input type = "text" name = "email" required/>
+     
+   </p>
+</fieldset>
+
+<fieldset>
+<legend><h1>Verify Your Age</h1></legend>
+
+ </p>
+
+   
+     <p> <label>BirthDate:  </label>
+      <input type = "date" />
+     
+    
+   </p>
+
+</fieldset>
+
+<fieldset>
+<legend><h1>Login Details</h1></legend>
+   
+   <p><label>Username: </label> 
+    <input type = "text" name = "username" required/>
+     
+   </p>
+  
+    <p><label>Password: </label> 
+    <input type = "password" name = "pswd" required/>
+     
+   </p>
+
+    <p><label>Confirm Password: </label> 
+    <input type = "password" name = "Cpswd" required/>
+    
+
+<p>
+</fieldset>
+
+<fieldset>
+<legend><h1>Newsletter Details</h1></legend>
+
+     <input name = "hobby" type = "checkbox"
+      value = "reading">  Subscribe to Our Newsletter 
+  </p>
+
+ <p> 
+  
+    <input name = "personality" type = "radio"
+      value = "introvert">  HTML 
+ 
+     <input name = "personality" type = "radio"
+      value = "extrovert">   TEXT-Only 
+  </p>
+</fieldset>
+</fieldset>
+   
+   <input type ="submit" value ="Submit" />
+   <input type ="reset" value ="Clear" />
+
+</form>
+
+
+</div> <!--main-->
+</div> <!--contain-contaner-->
+
+
+<div id = "side">
+<div id = "box">
+<h3> Categories</h3>
+
+<p> <a href = "babygear.html"> BABY GEAR</a></p>
+<p> <a href = "outdoor.html"> OUTDOOR FUN</a></p>
+<p> <a href = "toy.html"> EDUCATIONAL TOYS</a></p>
+
+
+</div> <!--box-->
+
+<div id = "box">
+<h3> Highlight</h3>
+
+<p>
+
+Be our<a href="http://www.facebook.com">Facebook</a>fan today!
+</p>
+</div> <!--box-->
+</div> <!--side-->
+
+<div id = "footer">
+
+Copyright © BabyParadise, 2019
+
+</div> <!--footer-->
+
+</div> <!--wrapper-->
+
+
+
+ </body>
+
+
+ </html>
+ 
+
